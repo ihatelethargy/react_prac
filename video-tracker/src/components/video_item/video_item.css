@@ -1,0 +1,33 @@
+.boxWrapper {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 0.2em;
+    display: flex;
+    align-items: center;
+    border: 1px solid #D3D3D3;
+    padding: 20px;   
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.boxWrapper:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 2px 16px 0px rgba(0,0,0,0.86);
+}
+
+.box-img img {
+    border-radius: 5px;
+}
+
+.box-contents{
+    margin-left: 2em;
+}
+
+.contentsTitle{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contentsChannel{
+    font-size: 14px;
+}

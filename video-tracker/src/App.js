@@ -1,5 +1,6 @@
 import { useState,useEffect } from 'react';
 import './App.css';
+import Navbar from './components/navbar/navbar';
 import VideoList from './components/video_list/video_list';
 
 function App() {
@@ -18,7 +19,10 @@ function App() {
       .catch(error => console.log('error', error));
   }, [])
   return (
-    <VideoList videos={videos} />
+    <>
+      <Navbar/>
+      <VideoList videos={videos} />
+    </>
   );
 }
 
