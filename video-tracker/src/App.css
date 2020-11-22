@@ -9,3 +9,14 @@ body{
     background-color: #F2F3F6;
 }
 
+.contents {
+    display: flex;
+}
+
+.contentsDetail {
+    flex: 1 1 70%;
+}
+
+.contentsList {
+    flex: 1 1 30%;
+}

@@ -10,6 +10,8 @@
     transition: all 0.25s;
 }
 
+
+
 .boxWrapper:hover{
     transform: scale(1.01);
     box-shadow: 1px 2px 16px 0px rgba(0,0,0,0.86);
